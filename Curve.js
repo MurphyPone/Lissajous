@@ -12,7 +12,7 @@ class Curve {
   setY(y) { this.current.y = y; }
 
   show(j, i) {
-    var c = 360 / (i+j);
+    var c = 256 / (i+j);
     stroke(c, 255, 255); //TODO be thoughtful about color
     strokeWeight(1);
     noFill();

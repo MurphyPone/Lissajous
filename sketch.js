@@ -52,7 +52,7 @@ function drawCols() {
   //Draw cols
   for (var i = 0; i < cols; i++) {
     //get color
-    c = 360 / (i+1);
+    c = 256 / (i+1);
 
     strokeWeight(1);
     stroke(c, 255 ,255);
@@ -82,7 +82,7 @@ function drawCols() {
 
 function drawRows() {
   for(var j = 0; j < rows; j++) {
-    c = 360 / (j+1);
+    c = 256 / (j);
 
     strokeWeight(1);
     stroke(c, 255, 255);
